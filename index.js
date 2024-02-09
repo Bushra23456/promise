@@ -91,7 +91,7 @@ consumedPromiseFive()
 
 
 //user data fetch
-
+//link web name api placeholder
 async function getAllUsers(){
     try{
         let response = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -103,3 +103,7 @@ async function getAllUsers(){
     }
 }
 getAllUsers()
+
+
+
+
